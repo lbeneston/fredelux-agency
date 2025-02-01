@@ -4,7 +4,7 @@ import { ServicesComponent } from "./Styles";
 export const Services = () => {
     return (
         <ServicesComponent>
-            <Link to="/booking/#booking" className="services_box">
+            <Link to="/booking" className="services_box">
                 <img
                     className="services_box_illustration"
                     src={`${process.env.PUBLIC_URL}/images/service_booking.jpg`}
@@ -15,7 +15,7 @@ export const Services = () => {
                     <p>Découvrir</p>
                 </div>
             </Link>
-            <Link to="/sound-design/#sound-design" className="services_box">
+            <Link to="/sound-design" className="services_box">
                 <img
                     className="services_box_illustration"
                     src={`${process.env.PUBLIC_URL}/images/radio.jpg`}
