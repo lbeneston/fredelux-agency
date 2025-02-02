@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const SocialNetworkComponent = styled.a`
   height: 25px;
@@ -8,4 +8,4 @@ export const SocialNetworkComponent = styled.a`
     height: 100%;
     width: 100%;
   }
-`;
+`

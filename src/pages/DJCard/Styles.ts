@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const DjCardContainer = styled.section`
   width: 100%;
@@ -10,7 +10,7 @@ export const DjCardContainer = styled.section`
   @media (min-width: 768px) {
     background-color: $anthracite-grey; /* Utiliser les couleurs définies dans ton SCSS */
   }
-`;
+`
 
 export const DjCardContainerTitle = styled.div`
   display: none;
@@ -34,7 +34,7 @@ export const DjCardContainerTitle = styled.div`
   @media (min-width: 1024px) {
     font-size: 2rem;
   }
-`;
+`
 
 export const DjCardWrapper = styled.div`
   width: 90%;
@@ -54,7 +54,7 @@ export const DjCardWrapper = styled.div`
     overflow: hidden;
     position: absolute;
   }
-`;
+`
 
 export const DjCardCloseButton = styled.div`
   position: absolute;
@@ -68,7 +68,7 @@ export const DjCardCloseButton = styled.div`
     top: 30px;
     right: 30px;
   }
-`;
+`
 
 export const DjCardHeader = styled.div`
   height: 75vh;
@@ -81,7 +81,7 @@ export const DjCardHeader = styled.div`
     top: 0;
     width: 40%;
   }
-`;
+`
 
 export const DjCardHeaderProfilePicture = styled.img`
   position: absolute;
@@ -96,7 +96,7 @@ export const DjCardHeaderProfilePicture = styled.img`
   &:hover {
     filter: none;
   }
-`;
+`
 
 export const DjCardHeaderInformations = styled.div`
   position: absolute;
@@ -115,7 +115,7 @@ export const DjCardHeaderInformations = styled.div`
   text-shadow: 0 0 10px #000;
   overflow-wrap: break-word;
   hyphens: auto;
-`;
+`
 
 export const DjCardHeaderInformationsName = styled.h3`
   letter-spacing: 0.2rem;
@@ -124,14 +124,14 @@ export const DjCardHeaderInformationsName = styled.h3`
   @media (min-width: 768px) {
     font-size: 3rem;
   }
-`;
+`
 
 export const DjCardHeaderInformationsMusicalGenres = styled.div`
   padding: 15px 0 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-`;
+`
 
 export const DjCardHeaderInformationsMusicalGenresItem = styled.h4`
   padding: 5px;
@@ -143,7 +143,7 @@ export const DjCardHeaderInformationsMusicalGenresItem = styled.h4`
   @media (min-width: 768px) {
     font-size: 1rem;
   }
-`;
+`
 
 export const DjCardHeaderInformationsSocialNetworks = styled.div`
   max-height: 30px;
@@ -152,7 +152,7 @@ export const DjCardHeaderInformationsSocialNetworks = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-`;
+`
 
 export const DjCardHeaderBookingButton = styled.div`
   position: absolute;
@@ -163,7 +163,7 @@ export const DjCardHeaderBookingButton = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #000;
-`;
+`
 
 export const DjCardHeaderBookingButtonButton = styled.a`
   text-transform: uppercase;
@@ -189,7 +189,7 @@ export const DjCardHeaderBookingButtonButton = styled.a`
     transform: scale(0.9);
     transition: 0.5s;
   }
-`;
+`
 
 export const DjCardDescription = styled.div`
   background-color: #f4f4f4; /* remplace $off-white */
@@ -218,7 +218,7 @@ export const DjCardDescription = styled.div`
     top: 0;
     right: 0;
   }
-`;
+`
 
 export const DjCardDescriptionTitles = styled.div`
   width: 100%;
@@ -228,7 +228,7 @@ export const DjCardDescriptionTitles = styled.div`
   @media (min-width: 768px) {
     margin-bottom: 15px;
   }
-`;
+`
 
 export const DjCardDescriptionTitlesLine = styled.div`
   width: 30px;
@@ -239,7 +239,7 @@ export const DjCardDescriptionTitlesLine = styled.div`
   @media (min-width: 768px) {
     width: 50px;
   }
-`;
+`
 
 export const DjCardDescriptionTitlesText = styled.h5`
   text-transform: uppercase;
@@ -251,7 +251,7 @@ export const DjCardDescriptionTitlesText = styled.h5`
   @media (min-width: 1024px) {
     font-size: 1.4rem;
   }
-`;
+`
 
 export const DjCardDescriptionParagraphe = styled.p`
   font-size: 1rem;
@@ -269,4 +269,4 @@ export const DjCardDescriptionParagraphe = styled.p`
     line-height: 2.25rem;
     font-weight: lighter;
   }
-`;
+`

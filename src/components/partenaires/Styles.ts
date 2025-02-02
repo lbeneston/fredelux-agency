@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const PartenairesCarrouselComponent = styled.a`
   width: 100%;
@@ -60,4 +60,4 @@ export const PartenairesCarrouselComponent = styled.a`
       transition: 0.5s ease-in-out;
     }
   }
-`;
+`

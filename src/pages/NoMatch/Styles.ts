@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const NoMatchContainer = styled.div`
   width: 100%;
@@ -9,7 +9,7 @@ export const NoMatchContainer = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: #303030; // $anthracite-grey
-`;
+`
 
 export const Title = styled.h2`
   color: #f0f0f0; // $off-white
@@ -19,7 +19,7 @@ export const Title = styled.h2`
   @media (min-width: 768px) {
     font-size: 8rem;
   }
-`;
+`
 
 export const Description = styled.h3`
   color: #f0f0f0; // $off-white
@@ -27,7 +27,7 @@ export const Description = styled.h3`
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 40px;
-`;
+`
 
 export const ButtonHome = styled.button`
   padding: 12px 20px;
@@ -41,4 +41,4 @@ export const ButtonHome = styled.button`
   span {
     margin-right: 10px;
   }
-`;
+`

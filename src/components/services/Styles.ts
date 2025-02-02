@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const ServicesComponent = styled.section`
   width: 100%;
@@ -78,4 +78,4 @@ export const ServicesComponent = styled.section`
       transition: 0.5s ease-in-out;
     }
   }
-`;
+`

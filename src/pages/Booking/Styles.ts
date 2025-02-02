@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { styled } from "styled-components";
+import { Link } from 'react-router-dom'
+import { styled } from 'styled-components'
 
 export const DjsList = styled.div`
   width: 90vw;
@@ -13,7 +13,7 @@ export const DjsList = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-`;
+`
 
 export const DjsCard = styled(Link)`
   margin: 1vw;
@@ -31,7 +31,7 @@ export const DjsCard = styled(Link)`
   @media (min-width: 768px) {
     width: 20vw;
   }
-`;
+`
 
 export const ProfilePicture = styled.img`
   width: 100%;
@@ -40,7 +40,7 @@ export const ProfilePicture = styled.img`
   filter: grayscale(1);
   transition: filter 0.5s ease-in-out;
   height: 30vh;
-`;
+`
 
 export const Informations = styled.div`
   width: 100%;
@@ -55,18 +55,18 @@ export const Informations = styled.div`
   color: #f5f5f5;
   text-align: center;
   text-transform: uppercase;
-`;
+`
 
 export const DJName = styled.h3`
   letter-spacing: 0.2rem;
   font-size: 2rem;
-`;
+`
 
 export const MusicalGenresContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-`;
+`
 
 export const MusicalGenreItem = styled.h4`
   padding: 5px;
@@ -74,13 +74,13 @@ export const MusicalGenreItem = styled.h4`
   letter-spacing: 0.15rem;
   font-weight: lighter;
   font-size: 1.1rem;
-`;
+`
 
 export const MusicalGenresWrapper = styled.div`
   width: 90%;
   margin: -20px auto;
   position: relative;
-`;
+`
 
 export const GenreTitle = styled.button`
   padding: 0 20px;
@@ -95,13 +95,13 @@ export const GenreTitle = styled.button`
   border: none;
   border-bottom: 3px solid #1c1c1c;
   cursor: pointer;
-`;
+`
 
 export const GenreContainer = styled.div<{ open: boolean }>`
   position: absolute;
   width: 100%;
   top: 50px;
-  display: ${({ open }) => (open ? "flex" : "none")};
+  display: ${({ open }) => (open ? 'flex' : 'none')};
   flex-direction: column;
   align-items: center;
   z-index: 50;
@@ -110,7 +110,7 @@ export const GenreContainer = styled.div<{ open: boolean }>`
   @media (min-width: 768px) {
     flex-direction: row;
   }
-`;
+`
 
 export const GenreButton = styled.button`
   width: 100%;
@@ -127,4 +127,4 @@ export const GenreButton = styled.button`
     transition: 0.5s;
     background-color: #1c1c1c;
   }
-`;
+`

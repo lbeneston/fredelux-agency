@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const PartenairesCarrouselComponent = styled.section`
   width: 100%;
@@ -110,4 +110,4 @@ export const PartenairesCarrouselComponent = styled.section`
       }
     }
   }
-`;
+`

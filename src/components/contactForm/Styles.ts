@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-const lightGrey = "#f0f0f0";
-const middleGrey = "#b0b0b0";
-const offWhite = "#fafafa";
-const softGrey = "#d3d3d3";
+const lightGrey = '#f0f0f0'
+const middleGrey = '#b0b0b0'
+const offWhite = '#fafafa'
+const softGrey = '#d3d3d3'
 
 export const FormContainer = styled.form`
   margin-top: 30px;
@@ -11,14 +11,14 @@ export const FormContainer = styled.form`
   @media (min-width: 768px) {
     position: relative;
   }
-`;
+`
 
 export const InputContainer = styled.div`
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
   }
-`;
+`
 
 export const InputField = styled.input`
   width: 100%;
@@ -50,7 +50,7 @@ export const InputField = styled.input`
       color: transparent;
     }
   }
-`;
+`
 
 export const InputWrapper = styled.div`
   border-left: 2px solid ${middleGrey};
@@ -60,13 +60,13 @@ export const InputWrapper = styled.div`
   @media (min-width: 768px) {
     width: 47.5%;
   }
-`;
+`
 
 export const LargerInputWrapper = styled.div`
   border-left: 2px solid ${middleGrey};
   width: 100%;
   margin-bottom: 15px;
-`;
+`
 
 export const HiddenLabel = styled.label`
   position: absolute !important;
@@ -74,7 +74,7 @@ export const HiddenLabel = styled.label`
   height: 1px;
   overflow: hidden;
   width: 1px;
-`;
+`
 
 export const SelectField = styled.select`
   -webkit-appearance: none;
@@ -99,7 +99,7 @@ export const SelectField = styled.select`
   @media (min-width: 1024px) {
     font-size: 1.3rem;
   }
-`;
+`
 
 export const TextArea = styled.textarea`
   width: 100%;
@@ -141,7 +141,7 @@ export const TextArea = styled.textarea`
       color: transparent;
     }
   }
-`;
+`
 
 export const Button = styled.button`
   width: 100%;
@@ -172,7 +172,7 @@ export const Button = styled.button`
     margin-left: 5px;
     transition: 0.5s;
   }
-`;
+`
 
 export const ErrorMessage = styled.span`
   font-size: 1.2rem;
@@ -182,4 +182,4 @@ export const ErrorMessage = styled.span`
   @media (min-width: 1024px) {
     font-size: 1.3rem;
   }
-`;
+`
