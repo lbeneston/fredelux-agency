@@ -4,7 +4,7 @@ import { LogoFA } from "../../svg/LogoFA";
 import { LogoWrapper, NavWrapper } from "./Styles";
 
 export const Nav = () => {
-    const [topPosition, setTopPosition] = useState<boolean | undefined>(undefined);
+    const [topPosition, setTopPosition] = useState<boolean>(true);
 
     useEffect(() => {
         if (window.scrollY === 0) {
@@ -31,7 +31,7 @@ export const Nav = () => {
         const { pathname } = location;
         if (pathname === "/") {
             return (
-                <NavWrapper topPosition={topPosition}>
+                <NavWrapper $topPosition={topPosition}>
                     <LogoWrapper to="/#">
                         <LogoFA />
                     </LogoWrapper>
@@ -39,7 +39,7 @@ export const Nav = () => {
             );
         }
         return (
-            <NavWrapper topPosition={false}>
+            <NavWrapper $topPosition={false}>
                 <LogoWrapper to="/#">
                     <LogoFA />
                 </LogoWrapper>
