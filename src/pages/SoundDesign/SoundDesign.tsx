@@ -1,4 +1,3 @@
-// import ContactLink from "../../atoms/Link/ContactLink/ContactLink";
 import { ContactLink } from '../../components/contactLink/ContactLink'
 import { Section } from '../../components/section/Section'
 

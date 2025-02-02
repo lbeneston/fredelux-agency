@@ -4,7 +4,7 @@ import { colors } from '../../styles/colors'
 export const FooterComponent = styled.footer`
   width: 100%;
   padding: 20px 0;
-  margin-bottom: 50px; // Hauteur de la nav
+  margin-bottom: 50px;
   background-color: ${colors.anthraciteGrey};
   color: ${colors.softGrey};
   display: flex;
