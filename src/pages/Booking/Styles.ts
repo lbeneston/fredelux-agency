@@ -4,13 +4,10 @@ import { colors } from '../../styles/colors'
 
 export const DjsList = styled.div`
   width: 90vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  background-color: ${colors.black};
-  margin-bottom: 50px;
-  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
