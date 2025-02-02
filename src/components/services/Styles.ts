@@ -73,7 +73,6 @@ export const ServicesComponent = styled.section`
     & p {
       opacity: 0;
       margin-top: -15px;
-      font-size: 0.5rem;
       font-weight: lighter;
       text-shadow: 0 0 10px ${colors.black};
       transition: 0.5s ease-in-out;

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { LogoFA } from '../../svg/LogoFA'
 import { LogoWrapper, NavWrapper } from './Styles'
+import { Burger } from '../burger/Burger'
 
 export const Nav = () => {
   const [topPosition, setTopPosition] = useState<boolean>(true)
@@ -35,6 +36,7 @@ export const Nav = () => {
           <LogoWrapper to="/#">
             <LogoFA />
           </LogoWrapper>
+          <Burger />
         </NavWrapper>
       )
     }
@@ -43,6 +45,7 @@ export const Nav = () => {
         <LogoWrapper to="/#">
           <LogoFA />
         </LogoWrapper>
+        <Burger />
       </NavWrapper>
     )
   }

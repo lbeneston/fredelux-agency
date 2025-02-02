@@ -101,7 +101,7 @@ export const SectionComponent = styled.section<{ id?: string }>`
     }
 
     @media (min-width: 1024px) {
-      height: 80vh;
+      height: 100vh;
     }
 
     & .section_description_container {

@@ -54,7 +54,6 @@ export const PartenairesCarrouselComponent = styled.a`
 
     p {
       opacity: 0;
-      font-size: 0.5rem;
       font-weight: lighter;
       margin-top: -15px;
       text-shadow: 0 0 10px ${colors.black};
