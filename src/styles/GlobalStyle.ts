@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { colors } from './colors'
 
 export const GlobalStyle = createGlobalStyle`
     /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -89,17 +90,17 @@ export const GlobalStyle = createGlobalStyle`
 }
 
     body {
-    background-color: #141414; 
+    background-color: ${colors.anthraciteGrey}; 
     font-family: Helvetica, sans-serif;
     font-size: 1.4rem;
 
     &::-webkit-scrollbar {
         width: 10px;
-        background-color: #141414; 
+        background-color: ${colors.anthraciteGrey}; 
     }
 
     &::-webkit-scrollbar-thumb {
-        background-color: #424242; /* Remplace $grey */
+        background-color: ${colors.grey}; 
     }
     }
 `

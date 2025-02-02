@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const PartenairesCarrouselComponent = styled.a`
   width: 100%;
@@ -37,7 +38,7 @@ export const PartenairesCarrouselComponent = styled.a`
     text-align: center;
     position: absolute;
     bottom: 0;
-    color: #fafafa; /* couleur off-white */
+    color: ${colors.offWhite};
     text-transform: uppercase;
     background: linear-gradient(
       rgba(0, 0, 0, 0),
@@ -48,7 +49,7 @@ export const PartenairesCarrouselComponent = styled.a`
     h4 {
       font-size: 1.75rem;
       transition: 0.5s ease-in-out;
-      text-shadow: 0 0 10px #000000; /* couleur noire */
+      text-shadow: 0 0 10px ${colors.black};
     }
 
     p {
@@ -56,7 +57,7 @@ export const PartenairesCarrouselComponent = styled.a`
       font-size: 0.5rem;
       font-weight: lighter;
       margin-top: -15px;
-      text-shadow: 0 0 10px #000000; /* couleur noire */
+      text-shadow: 0 0 10px ${colors.black};
       transition: 0.5s ease-in-out;
     }
   }

@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const ServicesComponent = styled.section`
   width: 100%;
@@ -12,7 +13,7 @@ export const ServicesComponent = styled.section`
   .services_box {
     width: 100%;
     height: 50%;
-    background-color: #333; /* remplace $anthracite-grey */
+    background-color: ${colors.anthraciteGrey};
     position: relative;
     display: flex;
     justify-content: center;
@@ -54,14 +55,14 @@ export const ServicesComponent = styled.section`
   .services_box_title {
     text-align: center;
     text-transform: uppercase;
-    color: #f4f4f4; /* remplace $off-white */
+    color: ${colors.offWhite};
     position: absolute;
 
     & h2 {
       width: 100%;
       font-size: 2rem;
       letter-spacing: 0.75rem;
-      text-shadow: 0 0 10px #000; /* remplace $black */
+      text-shadow: 0 0 10px ${colors.black};
       transition: 0.5s ease-in-out;
 
       @media (min-width: 768px) {
@@ -74,7 +75,7 @@ export const ServicesComponent = styled.section`
       margin-top: -15px;
       font-size: 0.5rem;
       font-weight: lighter;
-      text-shadow: 0 0 10px #000; /* remplace $black */
+      text-shadow: 0 0 10px ${colors.black};
       transition: 0.5s ease-in-out;
     }
   }

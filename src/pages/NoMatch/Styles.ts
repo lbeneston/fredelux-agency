@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const NoMatchContainer = styled.div`
   width: 100%;
@@ -8,11 +9,11 @@ export const NoMatchContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #303030; // $anthracite-grey
+  background-color: ${colors.anthraciteGrey};
 `
 
 export const Title = styled.h2`
-  color: #f0f0f0; // $off-white
+  color: ${colors.offWhite};
   font-size: 5rem;
   text-transform: uppercase;
 
@@ -22,7 +23,7 @@ export const Title = styled.h2`
 `
 
 export const Description = styled.h3`
-  color: #f0f0f0; // $off-white
+  color: ${colors.offWhite};
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
@@ -32,8 +33,8 @@ export const Description = styled.h3`
 export const ButtonHome = styled.button`
   padding: 12px 20px;
   border: none;
-  background-color: #666; // $grey
-  color: #f0f0f0; // $off-white
+  background-color: ${colors.grey};
+  color: ${colors.offWhite};
   text-transform: uppercase;
   font-size: 1.2rem;
   cursor: pointer;

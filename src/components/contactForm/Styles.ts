@@ -1,9 +1,5 @@
 import styled from 'styled-components'
-
-const lightGrey = '#f0f0f0'
-const middleGrey = '#b0b0b0'
-const offWhite = '#fafafa'
-const softGrey = '#d3d3d3'
+import { colors } from '../../styles/colors'
 
 export const FormContainer = styled.form`
   margin-top: 30px;
@@ -24,7 +20,7 @@ export const InputField = styled.input`
   width: 100%;
   height: 40px;
   border: none;
-  background-color: ${lightGrey};
+  background-color: ${colors.lightGrey};
   outline: none;
   cursor: pointer;
   padding: 0 10px;
@@ -37,13 +33,13 @@ export const InputField = styled.input`
   }
 
   &::placeholder {
-    color: #000;
+    color: ${colors.black};
     text-transform: uppercase;
     transition: 0.25s;
   }
 
   &:focus {
-    background-color: ${offWhite};
+    background-color: ${colors.offWhite};
     transition: background-color 0.5s;
 
     &::placeholder {
@@ -53,7 +49,7 @@ export const InputField = styled.input`
 `
 
 export const InputWrapper = styled.div`
-  border-left: 2px solid ${middleGrey};
+  border-left: 2px solid ${colors.middleGrey};
   width: 100%;
   margin-bottom: 15px;
 
@@ -63,7 +59,7 @@ export const InputWrapper = styled.div`
 `
 
 export const LargerInputWrapper = styled.div`
-  border-left: 2px solid ${middleGrey};
+  border-left: 2px solid ${colors.middleGrey};
   width: 100%;
   margin-bottom: 15px;
 `
@@ -85,10 +81,10 @@ export const SelectField = styled.select`
   border: none;
   margin: 0;
   padding-left: 10px;
-  background-color: ${lightGrey};
+  background-color: ${colors.lightGrey};
   outline: none;
   cursor: pointer;
-  color: #000;
+  color: ${colors.black};
   font-family: Helvetica, sans-serif;
   font-size: 1.2rem;
   transition: 0.5s;
@@ -105,7 +101,7 @@ export const TextArea = styled.textarea`
   width: 100%;
   min-height: 100px;
   border: none;
-  background-color: ${lightGrey};
+  background-color: ${colors.lightGrey};
   outline: none;
   cursor: pointer;
   padding: 10px;
@@ -120,21 +116,21 @@ export const TextArea = styled.textarea`
 
   &::-webkit-scrollbar {
     width: 10px;
-    background-color: ${offWhite};
+    background-color: ${colors.offWhite};
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: ${softGrey};
+    background-color: ${colors.softGrey};
   }
 
   &::placeholder {
-    color: #000;
+    color: ${colors.black};
     text-transform: uppercase;
     transition: 0.25s;
   }
 
   &:focus {
-    background-color: ${offWhite};
+    background-color: ${colors.offWhite};
     transition: background-color 0.5s;
 
     &::placeholder {
@@ -147,7 +143,7 @@ export const Button = styled.button`
   width: 100%;
   height: 40px;
   border: none;
-  background-color: ${softGrey};
+  background-color: ${colors.softGrey};
   outline: none;
   cursor: pointer;
   padding: 0 10px;
@@ -155,7 +151,7 @@ export const Button = styled.button`
   font-family: Helvetica, sans-serif;
   font-size: 1.2rem;
   transition: 0.5s ease-in-out;
-  color: #000;
+  color: ${colors.black};
 
   @media (min-width: 1024px) {
     font-size: 1.3rem;
@@ -176,7 +172,7 @@ export const Button = styled.button`
 
 export const ErrorMessage = styled.span`
   font-size: 1.2rem;
-  color: rgb(201, 0, 0);
+  color: ${colors.error};
   margin-left: 10px;
 
   @media (min-width: 1024px) {
