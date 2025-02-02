@@ -40,7 +40,7 @@ export const FooterComponent = styled.footer`
     display: flex;
     justify-content: center;
     padding: 15px 5% 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     @media (min-width: 768px) {
       justify-content: flex-start;
@@ -62,12 +62,12 @@ export const FooterComponent = styled.footer`
 
   .footer_adresse {
     padding: 5px 5%;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .footer_mail {
     padding: 5px 5%;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     &:hover {
       text-decoration: underline;
@@ -76,7 +76,7 @@ export const FooterComponent = styled.footer`
 
   .footer_copyright {
     padding: 15px 0 0;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
 
     @media (min-width: 768px) {

@@ -31,8 +31,11 @@ import {
 } from './Styles'
 import { NoMatch } from '../NoMatch/NoMatch'
 import { ContactForm } from '../../components/contactForm/ContactForm'
+import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const DjCard = () => {
+  useScrollToTop()
+
   const { url_name } = useParams()
   const [djDetails, setDjDetails] = useState<any>(null)
 

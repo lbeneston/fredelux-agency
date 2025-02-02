@@ -6,8 +6,13 @@ import Booking from './pages/Booking/Booking'
 import { DjCard } from './pages/DJCard/DJCard'
 import { Contact } from './pages/Contact/Contact'
 import { Agency } from './pages/Agency/Agency'
+import { useEffect } from 'react'
 
 export const AppRoutes = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />

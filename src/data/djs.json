@@ -2,7 +2,7 @@
   {
     "name": "DJ Poutre",
     "url_name": "dj-poutre",
-    "profile_picture": "service_booking.jpg",
+    "profile_picture": "ballons.jpg",
     "musical_genres": ["Electro", "Trap", "Hip-Hop"],
     "biography": "Originaire des rues vibrantes de Barcelone, DJ Coste est un véritable architecte du son, capable de fusionner des influences musicales allant de la house profonde à la techno industrielle, tout en créant une atmosphère unique à chaque performance. Depuis ses débuts modestes dans les clubs underground de la ville, il a su capter l’attention des foules avec son style distinctif, alliant des basses percutantes à des mélodies envoûtantes. Influencé par des artistes légendaires comme Carl Cox et Laurent Garnier, DJ Coste a su se réinventer sans cesse. Ses sets électrisants sont un voyage musical où chaque morceau raconte une histoire.",
     "soundcloud": "https://soundcloud.com/djexample",
@@ -16,7 +16,7 @@
   {
     "name": "Fredelux",
     "url_name": "dj-fredelux",
-    "profile_picture": "service_booking.jpg",
+    "profile_picture": "contact.jpg",
     "musical_genres": ["Electro", "Trap", "Hip-Hop"],
     "biography": "Originaire des rues vibrantes de Barcelone, DJ Coste est un véritable architecte du son, capable de fusionner des influences musicales allant de la house profonde à la techno industrielle, tout en créant une atmosphère unique à chaque performance. Depuis ses débuts modestes dans les clubs underground de la ville, il a su capter l’attention des foules avec son style distinctif, alliant des basses percutantes à des mélodies envoûtantes. Influencé par des artistes légendaires comme Carl Cox et Laurent Garnier, DJ Coste a su se réinventer sans cesse. Ses sets électrisants sont un voyage musical où chaque morceau raconte une histoire.",
     "soundcloud": "https://soundcloud.com/djexample",
@@ -30,7 +30,7 @@
   {
     "name": "DJ Coste",
     "url_name": "dj-coste",
-    "profile_picture": "service_booking.jpg",
+    "profile_picture": "radio.jpg",
     "musical_genres": ["Electro", "Trap", "Hip-Hop"],
     "biography": "Originaire des rues vibrantes de Barcelone, DJ Coste est un véritable architecte du son, capable de fusionner des influences musicales allant de la house profonde à la techno industrielle, tout en créant une atmosphère unique à chaque performance. Depuis ses débuts modestes dans les clubs underground de la ville, il a su capter l’attention des foules avec son style distinctif, alliant des basses percutantes à des mélodies envoûtantes. Influencé par des artistes légendaires comme Carl Cox et Laurent Garnier, DJ Coste a su se réinventer sans cesse. Ses sets électrisants sont un voyage musical où chaque morceau raconte une histoire.",
     "soundcloud": "https://soundcloud.com/djexample",
@@ -58,7 +58,7 @@
   {
     "name": "David Guetta",
     "url_name": "david-guetta",
-    "profile_picture": "service_booking.jpg",
+    "profile_picture": "service_sound_design.jpg",
     "musical_genres": ["House", "Dance", "Pop"],
     "biography": "Originaire des rues vibrantes de Barcelone, DJ Coste est un véritable architecte du son, capable de fusionner des influences musicales allant de la house profonde à la techno industrielle, tout en créant une atmosphère unique à chaque performance. Depuis ses débuts modestes dans les clubs underground de la ville, il a su capter l’attention des foules avec son style distinctif, alliant des basses percutantes à des mélodies envoûtantes. Influencé par des artistes légendaires comme Carl Cox et Laurent Garnier, DJ Coste a su se réinventer sans cesse. Ses sets électrisants sont un voyage musical où chaque morceau raconte une histoire.",
     "soundcloud": null,

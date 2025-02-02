@@ -63,6 +63,7 @@ export const DjCardCloseButton = styled.div`
   right: 5vw;
   z-index: 50;
   color: ${colors.offWhite};
+  font-size: 2rem;
 
   @media (min-width: 768px) {
     color: ${colors.black};
@@ -142,7 +143,7 @@ export const DjCardHeaderInformationsMusicalGenresItem = styled.h4`
   font-size: 1.2rem;
 
   @media (min-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 `
 
@@ -181,6 +182,7 @@ export const DjCardHeaderBookingButtonButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
 
   &:hover {
     background-color: ${colors.anthraciteGrey};

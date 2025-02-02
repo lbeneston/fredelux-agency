@@ -28,28 +28,28 @@ export const Burger = () => {
         <CustomLink
           to="/agence"
           onClick={switchOpen}
-          active={location.pathname === '/agence'}
+          active={location.pathname.startsWith('/agence')}
         >
           <h2>L'agence</h2>
         </CustomLink>
         <CustomLink
           to="/booking"
           onClick={switchOpen}
-          active={location.pathname === '/booking'}
+          active={location.pathname.startsWith('/booking')}
         >
           <h2>Booking DJ</h2>
         </CustomLink>
         <CustomLink
           to="/sound-design"
           onClick={switchOpen}
-          active={location.pathname === '/sound-design'}
+          active={location.pathname.startsWith('/sound-design')}
         >
           <h2>Sound Design</h2>
         </CustomLink>
         <CustomLink
           to="/contact"
           onClick={switchOpen}
-          active={location.pathname === '/contact'}
+          active={location.pathname.startsWith('/contact')}
         >
           <h2>Nous contacter</h2>
         </CustomLink>
