@@ -1,3 +1,0 @@
-# Fredelux Agency
-
-## Booking
