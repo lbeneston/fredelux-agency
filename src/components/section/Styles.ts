@@ -142,20 +142,6 @@ export const SectionComponent = styled.section<{ id?: string }>`
           font-weight: lighter;
         }
       }
-
-      & .section_description_container_paragraphe_bold {
-        font-size: 1rem;
-        font-weight: bolder;
-        text-transform: uppercase;
-        line-height: 2.2rem;
-        letter-spacing: 0.2rem;
-
-        @media (min-width: 1024px) {
-          font-size: 1.3rem;
-          line-height: 2.5rem;
-          font-weight: bolder;
-        }
-      }
     }
   }
 `;

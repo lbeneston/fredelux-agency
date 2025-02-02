@@ -1,3 +1,4 @@
+import { FREDELUX_AGENCY_EMAIL } from "../../constants/constants";
 import { SocialNetworkList } from "../socialNetworkList/SocialNetworkList";
 import { FooterComponent } from "./Styles";
 
@@ -17,8 +18,8 @@ export const Footer = () => {
                 <h3 className="footer_adresse">
                     34 rue du Faubourg Saint-Honorée 75008 Paris
                 </h3>
-                <a href="mailto:contact@fredeluxagency.com" className="footer_mail">
-                    contact@fredeluxagency.com
+                <a href={`mailto:${FREDELUX_AGENCY_EMAIL}`} className="footer_mail">
+                    {FREDELUX_AGENCY_EMAIL}
                 </a>
             </address>
             <h4 className="footer_copyright">

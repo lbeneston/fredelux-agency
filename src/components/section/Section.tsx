@@ -7,7 +7,6 @@ interface SectionProps {
     headerIllustration: string;
     descriptionTitle: string;
     descriptionParagraphe: string;
-    descriptionParagrapheOption?: React.ReactNode;
     option?: React.ReactNode;
 }
 
@@ -17,7 +16,6 @@ export const Section: React.FC<SectionProps> = ({
     headerIllustration,
     descriptionTitle,
     descriptionParagraphe,
-    descriptionParagrapheOption = null,
     option = null,
 }) => {
     return (
@@ -36,7 +34,6 @@ export const Section: React.FC<SectionProps> = ({
                     </h3>
                     <p className="section_description_container_paragraphe">
                         {descriptionParagraphe}
-                        <p className="section_description_container_paragraphe_bold">{descriptionParagrapheOption}</p>
                     </p>
                     {option}
                 </div>

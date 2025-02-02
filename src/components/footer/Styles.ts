@@ -54,16 +54,28 @@ export const FooterComponent = styled.footer`
     & > * {
       padding: 0 15px;
 
+      &:hover {
+        text-decoration: underline;
+      }
+
       @media (min-width: 768px) {
         padding: 0 15px 0 0;
       }
     }
   }
 
-  .footer_adresse,
+  .footer_adresse {
+    padding: 5px 5%;
+    font-size: 1rem;
+  }
+
   .footer_mail {
     padding: 5px 5%;
     font-size: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .footer_copyright {

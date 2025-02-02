@@ -89,13 +89,13 @@ export const GlobalStyle = createGlobalStyle`
 }
 
     body {
-    background-color: #333; /* Remplace $anthracite-grey */
+    background-color: #141414; 
     font-family: Helvetica, sans-serif;
     font-size: 1.4rem;
 
     &::-webkit-scrollbar {
         width: 10px;
-        background-color: #333; /* Remplace $anthracite-grey */
+        background-color: #141414; 
     }
 
     &::-webkit-scrollbar-thumb {

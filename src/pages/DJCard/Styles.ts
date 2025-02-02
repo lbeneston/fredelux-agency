@@ -61,7 +61,7 @@ export const DjCardCloseButton = styled.div`
   top: 10vw;
   right: 5vw;
   z-index: 50;
-  color: #fff;
+  color: #f4f4f4;
 
   @media (min-width: 768px) {
     color: #000;
@@ -119,10 +119,10 @@ export const DjCardHeaderInformations = styled.div`
 
 export const DjCardHeaderInformationsName = styled.h3`
   letter-spacing: 0.2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 
   @media (min-width: 768px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 `;
 
@@ -171,7 +171,7 @@ export const DjCardHeaderBookingButtonButton = styled.a`
   height: 40px;
   padding: 0 25px;
   background-color: #777;
-  color: #f0f0f0;
+  color: #f4f4f4;
   border: none;
   outline: none;
   margin-bottom: 5%;
@@ -192,14 +192,14 @@ export const DjCardHeaderBookingButtonButton = styled.a`
 `;
 
 export const DjCardDescription = styled.div`
-  background-color: #f0f0f0;
-  padding: 7.5%;
+  background-color: #f4f4f4; /* remplace $off-white */
+  padding: 7.5% 7.5% 10% 7.5%;
   white-space: pre-line;
   overflow-wrap: break-word;
 
   &::-webkit-scrollbar {
     width: 10px;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
   }
 
   &::-webkit-scrollbar-thumb {
@@ -212,7 +212,8 @@ export const DjCardDescription = styled.div`
     min-height: 75vh;
     max-height: 75vh;
     overflow-y: scroll;
-    padding: 3.5% 5%;
+    padding: 5% 3.5% 5% 3.5%;
+    // padding: 3.5% 5%;
     position: absolute;
     top: 0;
     right: 0;
@@ -267,32 +268,5 @@ export const DjCardDescriptionParagraphe = styled.p`
     font-size: 1.2rem;
     line-height: 2.25rem;
     font-weight: lighter;
-  }
-`;
-
-export const DjCardContactDescription = styled.p`
-  font-size: 1rem;
-  text-transform: uppercase;
-  line-height: 2.2rem;
-  letter-spacing: 0.2rem;
-
-  @media (min-width: 1024px) {
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-    font-weight: lighter;
-  }
-`;
-
-export const DjCardContactDescriptionBold = styled.p`
-  font-size: 1rem;
-  font-weight: bolder;
-  text-transform: uppercase;
-  line-height: 2.2rem;
-  letter-spacing: 0.2rem;
-
-  @media (min-width: 1024px) {
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-    font-weight: bolder;
   }
 `;
