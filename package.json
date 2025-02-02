@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "knip": "knip"
+    "deadcode": "knip",
+    "format": "prettier --write src/**/*.{ts,tsx,json,css,scss,html,js,jsx}"
   },
   "dependencies": {
     "@types/node": "^22.13.0",
@@ -22,7 +23,8 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
-    "knip": "^5.43.6"
+    "knip": "^5.43.6",
+    "prettier": "^3.4.2"
   },
   "eslintConfig": {
     "extends": [

@@ -1,5 +1,3 @@
-import * as React from "react";
-
 export const Spotify = () => {
   return (
     <svg width={512} height={512} viewBox="0 0 24 24">
@@ -11,5 +9,5 @@ export const Spotify = () => {
         data-original="#000000"
       />
     </svg>
-  );
+  )
 }

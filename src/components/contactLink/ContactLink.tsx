@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { FREDELUX_AGENCY_EMAIL } from "../../constants/constants";
+import React from 'react'
+import styled from 'styled-components'
+import { FREDELUX_AGENCY_EMAIL } from '../../constants/constants'
 
 const BoldLink = styled.a`
   font-size: 1.1rem;
@@ -18,16 +18,16 @@ const BoldLink = styled.a`
     line-height: 2.5rem;
     font-weight: bolder;
   }
-`;
+`
 
 type ContactLinkProps = {
-  subject: string;
-};
+  subject: string
+}
 
 export const ContactLink: React.FC<ContactLinkProps> = ({ subject }) => {
-  const mailToFredeluxAgency = `mailto:${FREDELUX_AGENCY_EMAIL}?subject=${encodeURIComponent(subject)}`;
+  const mailToFredeluxAgency = `mailto:${FREDELUX_AGENCY_EMAIL}?subject=${encodeURIComponent(subject)}`
 
   return (
     <BoldLink href={mailToFredeluxAgency}>{FREDELUX_AGENCY_EMAIL}</BoldLink>
-  );
-};
+  )
+}

@@ -1,10 +1,10 @@
-import React from "react";
-import { PartenairesCarrousel } from "../../components/partenairesCarrousel/PartenairesCarrousel";
-import { Section } from "../../components/section/Section";
-import { Services } from "../../components/services/Services";
-import { HomeComponent } from "./Styles";
-import { ContactForm } from "../../components/contactForm/ContactForm";
-import { ContactLink } from "../../components/contactLink/ContactLink";
+import React from 'react'
+import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
+import { Section } from '../../components/section/Section'
+import { Services } from '../../components/services/Services'
+import { HomeComponent } from './Styles'
+import { ContactForm } from '../../components/contactForm/ContactForm'
+import { ContactLink } from '../../components/contactLink/ContactLink'
 
 export const Home = () => {
   return (
@@ -46,5 +46,5 @@ export const Home = () => {
       />
       <PartenairesCarrousel />
     </React.Fragment>
-  );
-};
+  )
+}

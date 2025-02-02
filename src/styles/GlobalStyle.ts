@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
     /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -102,4 +102,4 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #424242; /* Remplace $grey */
     }
     }
-`;
+`

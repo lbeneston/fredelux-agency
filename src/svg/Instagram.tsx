@@ -1,5 +1,3 @@
-import * as React from "react";
-
 export const Instagram = () => {
   return (
     <svg height={512} viewBox="0 0 24 24" width={512}>
@@ -14,5 +12,5 @@ export const Instagram = () => {
       />
       <circle fill="currentColor" cx={18.406} cy={5.595} r={1.439} />
     </svg>
-  );
+  )
 }
