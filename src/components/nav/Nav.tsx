@@ -33,7 +33,7 @@ export const Nav = () => {
     if (pathname === '/') {
       return (
         <NavWrapper $topPosition={topPosition}>
-          <LogoWrapper to="/#">
+          <LogoWrapper to="/">
             <LogoFA />
           </LogoWrapper>
           <Burger />
@@ -42,7 +42,7 @@ export const Nav = () => {
     }
     return (
       <NavWrapper $topPosition={false}>
-        <LogoWrapper to="/#">
+        <LogoWrapper to="/">
           <LogoFA />
         </LogoWrapper>
         <Burger />

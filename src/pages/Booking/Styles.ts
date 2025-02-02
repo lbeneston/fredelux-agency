@@ -60,7 +60,7 @@ export const Informations = styled.div`
 
 export const DJName = styled.h3`
   letter-spacing: 0.2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 `
 
 export const MusicalGenresContainer = styled.div`
@@ -74,7 +74,7 @@ export const MusicalGenreItem = styled.h4`
   margin: 0 5px;
   letter-spacing: 0.15rem;
   font-weight: lighter;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 `
 
 export const MusicalGenresWrapper = styled.div`
@@ -90,7 +90,7 @@ export const GenreTitle = styled.button`
   text-align: left;
   background-color: ${colors.grey};
   color: ${colors.lightGrey};
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   border: none;
@@ -113,21 +113,25 @@ export const GenreContainer = styled.div<{ open: boolean }>`
   }
 `
 
-export const GenreButton = styled.button`
+export const GenreButton = styled.button<{ isSelected: boolean }>`
   width: 100%;
   height: 50px;
-  background-color: ${colors.grey};
+  background-color: ${({ isSelected }) =>
+    isSelected ? colors.anthraciteGrey : colors.grey};
   color: ${colors.offWhite};
   border: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  border-bottom: 3px solid ${colors.anthraciteGrey};
+  border-bottom: 3px solid
+    ${({ isSelected }) => (isSelected ? colors.grey : colors.anthraciteGrey)}; // Couleur de bordure différente pour le genre sélectionné
   cursor: pointer;
 
   &:hover {
     transition: 0.5s;
-    background-color: ${colors.anthraciteGrey};
-    border-bottom: 3px solid ${colors.grey};
+    background-color: ${({ isSelected }) =>
+      isSelected ? colors.anthraciteGrey : colors.anthraciteGrey};
+    border-bottom: 3px solid
+      ${({ isSelected }) => (isSelected ? colors.grey : colors.grey)};
   }
 `

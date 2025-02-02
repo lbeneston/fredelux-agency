@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import djsData from '../../data/djs.json'
 import musicalGenresData from '../../data/musicalGenres.json'
 import { Section } from '../../components/section/Section'
@@ -16,11 +16,29 @@ import {
   MusicalGenreItem,
 } from './Styles'
 import { ContactLink } from '../../components/contactLink/ContactLink'
+import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export default function Booking() {
+  useScrollToTop()
+
   const [musicalGenreSelected, setMusicalGenreSelected] =
     useState<string>('All')
   const [open, setOpen] = useState<boolean>(false)
+  const genreContainerRef = useRef<HTMLDivElement>(null)
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      genreContainerRef.current &&
+      !genreContainerRef.current.contains(event.target as Node)
+    ) {
+      setOpen(false)
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
 
   const inputChoice = (event: React.MouseEvent<HTMLButtonElement>) => {
     const value = event.currentTarget.value
@@ -65,13 +83,19 @@ export default function Booking() {
           <h3>Genre musical : {musicalGenreSelected}</h3>
         </GenreTitle>
 
-        <GenreContainer open={open}>
-          <GenreButton onClick={selectAll}>All</GenreButton>
+        <GenreContainer ref={genreContainerRef} open={open}>
+          <GenreButton
+            onClick={selectAll}
+            isSelected={musicalGenreSelected === 'All'}
+          >
+            All
+          </GenreButton>
           {musicalGenresData.map((musicalGenre) => (
             <GenreButton
               key={musicalGenre.name}
               value={musicalGenre.name}
               onClick={inputChoice}
+              isSelected={musicalGenre.name === musicalGenreSelected} // Passer la condition
             >
               {musicalGenre.name}
             </GenreButton>

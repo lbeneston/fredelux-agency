@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
 import { Services } from '../../components/services/Services'
 import { HomeComponent } from './Styles'
 import { Agency } from '../Agency/Agency'
 import { Contact } from '../Contact/Contact'
+import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const Home = () => {
+  useScrollToTop()
+
   return (
     <React.Fragment>
       <HomeComponent>
