@@ -3,7 +3,7 @@ import { SocialNetworkComponent } from "./Styles";
 
 interface SocialNetworkProps {
     href: string
-    logo: any
+    logo: React.ReactNode
 }
 
 export const SocialNetwork: React.FC<SocialNetworkProps> = ({ href, logo }) => {

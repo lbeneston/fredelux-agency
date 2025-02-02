@@ -3,6 +3,8 @@ import { PartenairesCarrousel } from "../../components/partenairesCarrousel/Part
 import { Section } from "../../components/section/Section";
 import { Services } from "../../components/services/Services";
 import { HomeComponent } from "./Styles";
+import { ContactForm } from "../../components/contactForm/ContactForm";
+import { ContactLink } from "../../components/contactLink/ContactLink";
 
 export const Home = () => {
   return (
@@ -31,11 +33,7 @@ export const Home = () => {
         Nous vous accompagnerons tout au long de votre projet, et vous proposerons d’écrire ensemble le cahier des charges le plus adapté à vos besoins. Nous faisons preuve d’une grande flexibilité ainsi que d’une écoute attentive.
         
         Nous contacter :`}
-        descriptionParagrapheOption={
-          <a href="mailto:contact@fredeluxagency.com">
-            contact@fredeluxagency.com
-          </a>
-        }
+        option={<ContactLink subject="Demande d'informations" />}
       />
       <Services />
       <Section
@@ -43,14 +41,8 @@ export const Home = () => {
         headerTitle="Contact"
         headerIllustration={`${process.env.PUBLIC_URL}/images/contact.jpg`}
         descriptionTitle="Comment nous contacter ?"
-        descriptionParagraphe={`Vous avez un projet et souhaitez bénéficier de notre expérience pour que la réalisation soit une belle réussite ? N’hésitez pas à nous faire une demande de rendez-vous afin que vos idées se concrétisent au mieux.
-        
-        Nous contacter à l'adresse mail suivante :`}
-        descriptionParagrapheOption={
-          <a href="mailto:contact@fredeluxagency.com">
-            contact@fredeluxagency.com
-          </a>
-        }
+        descriptionParagraphe="Vous avez un projet et souhaitez bénéficier de notre expérience pour que la réalisation soit une belle réussite ? N’hésitez pas à nous faire une demande de rendez-vous afin que vos idées se concrétisent au mieux."
+        option={<ContactForm />}
       />
       <PartenairesCarrousel />
     </React.Fragment>

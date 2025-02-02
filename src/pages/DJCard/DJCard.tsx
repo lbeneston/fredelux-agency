@@ -9,7 +9,9 @@ import { Mixcloud } from "../../svg/Mixcloud";
 import { Soundcloud } from "../../svg/Soundcloud";
 import { Spotify } from "../../svg/Spotify";
 import { Youtube } from "../../svg/Youtube";
-import { DjCardContainer, DjCardContainerTitle, DjCardWrapper, DjCardCloseButton, DjCardHeader, DjCardHeaderProfilePicture, DjCardHeaderInformations, DjCardHeaderInformationsName, DjCardHeaderInformationsMusicalGenres, DjCardHeaderInformationsMusicalGenresItem, DjCardHeaderInformationsSocialNetworks, DjCardHeaderBookingButton, DjCardHeaderBookingButtonButton, DjCardDescription, DjCardDescriptionTitles, DjCardDescriptionTitlesLine, DjCardDescriptionTitlesText, DjCardDescriptionParagraphe, DjCardContactDescriptionBold } from "./Styles";
+import { DjCardContainer, DjCardContainerTitle, DjCardWrapper, DjCardCloseButton, DjCardHeader, DjCardHeaderProfilePicture, DjCardHeaderInformations, DjCardHeaderInformationsName, DjCardHeaderInformationsMusicalGenres, DjCardHeaderInformationsMusicalGenresItem, DjCardHeaderInformationsSocialNetworks, DjCardHeaderBookingButton, DjCardHeaderBookingButtonButton, DjCardDescription, DjCardDescriptionTitles, DjCardDescriptionTitlesLine, DjCardDescriptionTitlesText, DjCardDescriptionParagraphe } from "./Styles";
+import { NoMatch } from "../NoMatch/NoMatch";
+import { ContactForm } from "../../components/contactForm/ContactForm";
 
 export const DjCard = () => {
     const { url_name } = useParams();
@@ -17,19 +19,18 @@ export const DjCard = () => {
 
     useEffect(() => {
         const dj = djsData.find((dj) => dj.url_name === url_name);
-        if (dj) {
-            setDjDetails(dj);
-        }
+        if (dj) setDjDetails(dj);
     }, [url_name]);
 
+    if (!djDetails) return <NoMatch />
+
+
     const HideShowSocialNetwork = (socialKey: string, IconComponent: React.ElementType) => {
-        if (djDetails && djDetails[socialKey]) {
+        if (djDetails[socialKey]) {
             return <SocialNetwork href={djDetails[socialKey]} logo={<IconComponent />} />;
         }
         return null;
     };
-
-    if (!djDetails) return <div>Loading...</div>;
 
     return (
         <DjCardContainer>
@@ -84,17 +85,7 @@ export const DjCard = () => {
                             Contacter {djDetails.name}
                         </DjCardDescriptionTitlesText>
                     </DjCardDescriptionTitles>
-                    <DjCardDescriptionParagraphe>
-                        Vous souhaitez booker {djDetails.name} pour votre prochain événement ?
-                        <br />
-                        <br />
-                        Nous contacter à l'adresse mail suivante :
-                        <DjCardContactDescriptionBold>
-                            <a href="mailto:contact@fredeluxagency.com">
-                                contact@fredeluxagency.com
-                            </a>
-                        </DjCardContactDescriptionBold>
-                    </DjCardDescriptionParagraphe>
+                    <ContactForm customSubject={`Booking ${djDetails.name}`} />
                 </DjCardDescription>
             </DjCardWrapper>
         </DjCardContainer>

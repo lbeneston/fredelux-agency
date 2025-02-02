@@ -1,4 +1,5 @@
 // import ContactLink from "../../atoms/Link/ContactLink/ContactLink";
+import { ContactLink } from "../../components/contactLink/ContactLink";
 import { Section } from "../../components/section/Section";
 
 export const SoundDesign = () => {
@@ -14,10 +15,7 @@ export const SoundDesign = () => {
                 Que vous soyez à la recherche d’un habillage sonore ou d’une playlist musicale, notre équipe dispose de toutes les compétences requises pour vous apporter la solution adaptée à votre requête. Personnaliser la relation avec les clients en proposant une expérience unique et individuelle, un enjeu que nous intégrons dans notre stratégie de communication.
                 
                 Nous contacter :`}
-            descriptionParagrapheOption={
-                <a href="mailto:contact@fredeluxagency.com">
-                    contact@fredeluxagency.com
-                </a>
-            } />
+            option={<ContactLink subject="Sound Design" />}
+        />
     );
 }

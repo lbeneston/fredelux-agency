@@ -3,6 +3,7 @@ import djsData from "../../data/djs.json";
 import musicalGenresData from "../../data/musicalGenres.json";
 import { Section } from "../../components/section/Section";
 import { MusicalGenresWrapper, GenreTitle, GenreContainer, GenreButton, DjsList, DjsCard, ProfilePicture, Informations, DJName, MusicalGenresContainer, MusicalGenreItem } from "./Styles";
+import { ContactLink } from "../../components/contactLink/ContactLink";
 
 export default function Booking() {
     const [musicalGenreSelected, setMusicalGenreSelected] = useState<string>("All");
@@ -43,11 +44,7 @@ export default function Booking() {
                 Pour toute information, faites une demande de rendez-vous depuis notre formulaire de contact ou directement depuis les fiches de nos DJs.
                 
                 Nous contacter :`}
-                descriptionParagrapheOption={
-                    <a href="mailto:contact@fredeluxagency.com">
-                        contact@fredeluxagency.com
-                    </a>
-                }
+                option={<ContactLink subject="Booking" />}
             />
 
             <MusicalGenresWrapper>
