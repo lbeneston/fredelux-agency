@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const Fonts = createGlobalStyle`
   @font-face {
@@ -7,4 +7,4 @@ export const Fonts = createGlobalStyle`
     font-weight: normal;
     font-style: normal;
   }
-`;
+`

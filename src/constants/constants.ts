@@ -1,1 +1,1 @@
-export const FREDELUX_AGENCY_EMAIL = "contact@fredeluxagency.com";
+export const FREDELUX_AGENCY_EMAIL = 'contact@fredeluxagency.com'

@@ -1,5 +1,3 @@
-import * as React from "react";
-
 export const LogoFA = () => {
   return (
     <svg
@@ -15,5 +13,5 @@ export const LogoFA = () => {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
