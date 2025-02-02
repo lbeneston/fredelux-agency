@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const NavWrapper = styled.nav<{ $topPosition?: boolean }>`
   height: 50px;
   width: 100%;
   background-color: ${(props) =>
-    props.$topPosition ? 'transparent' : '#141414'};
+    props.$topPosition ? 'transparent' : colors.anthraciteGrey};
   position: fixed;
   bottom: 0;
   padding: 0 5%;
@@ -13,7 +14,7 @@ export const NavWrapper = styled.nav<{ $topPosition?: boolean }>`
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  color: #fafafa;
+  color: ${colors.offWhite};
   transition: background-color 0.5s;
 
   @media (min-width: 768px) {
@@ -28,7 +29,7 @@ export const NavWrapper = styled.nav<{ $topPosition?: boolean }>`
 
 export const LogoWrapper = styled(Link)`
   height: 40%;
-  color: #fafafa;
+  color: ${colors.offWhite};
 
   & svg {
     height: 100%;

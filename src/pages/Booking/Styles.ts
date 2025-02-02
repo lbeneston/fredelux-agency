@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const DjsList = styled.div`
   width: 90vw;
@@ -7,7 +8,7 @@ export const DjsList = styled.div`
   padding-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #1c1c1c;
+  background-color: ${colors.black};
   margin-bottom: 50px;
   margin-top: 35px;
   display: flex;
@@ -52,7 +53,7 @@ export const Informations = styled.div`
     rgba(0, 0, 0, 0.75) 50%,
     rgba(0, 0, 0, 1)
   );
-  color: #f5f5f5;
+  color: ${colors.lightGrey};
   text-align: center;
   text-transform: uppercase;
 `
@@ -87,8 +88,8 @@ export const GenreTitle = styled.button`
   width: 100%;
   height: 50px;
   text-align: left;
-  background-color: #2e2e2e;
-  color: #f5f5f5;
+  background-color: ${colors.grey};
+  color: ${colors.lightGrey};
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -115,16 +116,18 @@ export const GenreContainer = styled.div<{ open: boolean }>`
 export const GenreButton = styled.button`
   width: 100%;
   height: 50px;
-  background-color: #2e2e2e;
-  color: #f5f5f5;
+  background-color: ${colors.grey};
+  color: ${colors.offWhite};
   border: none;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  border-bottom: 3px solid ${colors.anthraciteGrey};
   cursor: pointer;
 
   &:hover {
     transition: 0.5s;
-    background-color: #1c1c1c;
+    background-color: ${colors.anthraciteGrey};
+    border-bottom: 3px solid ${colors.grey};
   }
 `

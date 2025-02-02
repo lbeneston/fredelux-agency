@@ -1,9 +1,10 @@
 import styled from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const PartenairesCarrouselComponent = styled.section`
   width: 100%;
   height: 80vh;
-  background-color: #333; /* Remplace $anthracite-grey */
+  background-color: ${colors.grey};
   display: flex;
   align-items: center;
 
@@ -27,7 +28,7 @@ export const PartenairesCarrouselComponent = styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #bbb; /* Remplace $middle-grey */
+      color: ${colors.middleGrey};
       font-size: 1.5rem;
 
       @media (min-width: 768px) {
@@ -40,7 +41,7 @@ export const PartenairesCarrouselComponent = styled.section`
         border: none;
         outline: none;
         cursor: pointer;
-        color: #bbb; /* Remplace $middle-grey */
+        color: ${colors.middleGrey};
         font-size: 2rem;
         padding: 0 30px;
       }
@@ -49,7 +50,7 @@ export const PartenairesCarrouselComponent = styled.section`
     .partenaires_container_background {
       height: 90%;
       width: 30%;
-      background-color: #888; /* Remplace $grey */
+      background-color: ${colors.grey};
       position: absolute;
 
       @media (min-width: 768px) {
@@ -69,7 +70,7 @@ export const PartenairesCarrouselComponent = styled.section`
       writing-mode: vertical-rl;
       transform: rotate(180deg);
       text-transform: uppercase;
-      color: #f4f4f4; /* Remplace $off-white */
+      color: ${colors.offWhite};
 
       @media (min-width: 768px) {
         width: 7.5%;
@@ -101,7 +102,7 @@ export const PartenairesCarrouselComponent = styled.section`
         height: 100%;
         width: 100%;
         transition: 0.25s;
-        background-color: #bbb; /* Remplace $middle-grey */
+        background-color: ${colors.middleGrey};
 
         @media (min-width: 768px) {
           width: auto;

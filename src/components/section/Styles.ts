@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const SectionComponent = styled.section<{ id?: string }>`
-  background-color: #f4f4f4; /* remplace $off-white */
+  background-color: ${colors.offWhite};
   white-space: pre-line;
 
   @media (min-width: 768px) {
@@ -25,7 +26,7 @@ export const SectionComponent = styled.section<{ id?: string }>`
     & .section_header_background {
       width: 100%;
       height: 85%;
-      background-color: #333; /* remplace $anthracite-grey */
+      background-color: ${colors.anthraciteGrey};
       position: absolute;
 
       @media (min-width: 768px) {
@@ -47,7 +48,7 @@ export const SectionComponent = styled.section<{ id?: string }>`
       writing-mode: vertical-rl;
       transform: rotate(180deg);
       text-transform: uppercase;
-      color: #f4f4f4; /* remplace $off-white */
+      color: ${colors.offWhite};
 
       @media (min-width: 768px) {
         height: 75%;
@@ -78,7 +79,7 @@ export const SectionComponent = styled.section<{ id?: string }>`
         width: 100%;
         object-fit: cover;
         filter: grayscale(100%);
-        background-color: #e0e0e0; /* remplace $grey */
+        background-color: ${colors.grey};
 
         @media (min-width: 768px) {
           height: 75%;

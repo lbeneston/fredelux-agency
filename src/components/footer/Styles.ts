@@ -1,9 +1,5 @@
 import styled from 'styled-components'
-
-const colors = {
-  anthraciteGrey: '#141414',
-  softGrey: '#eaeaea',
-}
+import { colors } from '../../styles/colors'
 
 export const FooterComponent = styled.footer`
   width: 100%;

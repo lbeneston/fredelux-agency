@@ -1,14 +1,15 @@
 import { styled } from 'styled-components'
+import { colors } from '../../styles/colors'
 
 export const DjCardContainer = styled.section`
   width: 100%;
   height: 100vh;
   position: absolute;
-  background-color: #333;
+  background-color: ${colors.grey};
   z-index: 26;
 
   @media (min-width: 768px) {
-    background-color: $anthracite-grey; /* Utiliser les couleurs définies dans ton SCSS */
+    background-color: ${colors.anthraciteGrey};
   }
 `
 
@@ -27,7 +28,7 @@ export const DjCardContainerTitle = styled.div`
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-transform: uppercase;
-    color: #f0f0f0;
+    color: ${colors.offWhite};
     font-weight: normal;
   }
 
@@ -41,7 +42,7 @@ export const DjCardWrapper = styled.div`
   margin: 0 5% 5%;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: #333;
+  background-color: ${colors.grey};
   position: relative;
 
   @media (min-width: 768px) {
@@ -61,10 +62,10 @@ export const DjCardCloseButton = styled.div`
   top: 10vw;
   right: 5vw;
   z-index: 50;
-  color: #f4f4f4;
+  color: ${colors.offWhite};
 
   @media (min-width: 768px) {
-    color: #000;
+    color: ${colors.black};
     top: 30px;
     right: 30px;
   }
@@ -72,7 +73,7 @@ export const DjCardCloseButton = styled.div`
 
 export const DjCardHeader = styled.div`
   height: 75vh;
-  color: #f0f0f0;
+  color: ${colors.offWhite};
   position: relative;
 
   @media (min-width: 768px) {
@@ -109,10 +110,10 @@ export const DjCardHeaderInformations = styled.div`
     rgba(0, 0, 0, 0.75) 50%,
     rgba(0, 0, 0, 1)
   );
-  color: #f0f0f0;
+  color: ${colors.offWhite};
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px #000;
+  text-shadow: 0 0 10px ${colors.black};
   overflow-wrap: break-word;
   hyphens: auto;
 `
@@ -162,7 +163,7 @@ export const DjCardHeaderBookingButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: ${colors.black};
 `
 
 export const DjCardHeaderBookingButtonButton = styled.a`
@@ -170,8 +171,8 @@ export const DjCardHeaderBookingButtonButton = styled.a`
   letter-spacing: 0.2rem;
   height: 40px;
   padding: 0 25px;
-  background-color: #777;
-  color: #f4f4f4;
+  background-color: ${colors.grey};
+  color: ${colors.offWhite};
   border: none;
   outline: none;
   margin-bottom: 5%;
@@ -182,7 +183,7 @@ export const DjCardHeaderBookingButtonButton = styled.a`
   justify-content: center;
 
   &:hover {
-    background-color: #333;
+    background-color: ${colors.anthraciteGrey};
   }
 
   &:active {
@@ -192,18 +193,18 @@ export const DjCardHeaderBookingButtonButton = styled.a`
 `
 
 export const DjCardDescription = styled.div`
-  background-color: #f4f4f4; /* remplace $off-white */
+  background-color: ${colors.offWhite};
   padding: 7.5% 7.5% 10% 7.5%;
   white-space: pre-line;
   overflow-wrap: break-word;
 
   &::-webkit-scrollbar {
     width: 10px;
-    background-color: #f4f4f4;
+    background-color: ${colors.offWhite};
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #ccc;
+    background-color: ${colors.softGrey};
   }
 
   @media (min-width: 768px) {
@@ -234,7 +235,7 @@ export const DjCardDescriptionTitlesLine = styled.div`
   width: 30px;
   height: 1px;
   margin-bottom: 3px;
-  background-color: #333;
+  background-color: ${colors.anthraciteGrey};
 
   @media (min-width: 768px) {
     width: 50px;
