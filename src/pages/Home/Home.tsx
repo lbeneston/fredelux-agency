@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
 import { Services } from '../../components/services/Services'
 import { HomeComponent } from './Styles'
