@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const colors = {
-  anthraciteGrey: "#141414",
-  softGrey: "#eaeaea",
-};
+  anthraciteGrey: '#141414',
+  softGrey: '#eaeaea',
+}
 
 export const FooterComponent = styled.footer`
   width: 100%;
@@ -107,4 +107,4 @@ export const FooterComponent = styled.footer`
       margin-left: 5%;
     }
   }
-`;
+`

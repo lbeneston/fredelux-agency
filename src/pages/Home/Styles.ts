@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const HomeComponent = styled.section`
   width: 100%;
@@ -40,7 +40,7 @@ export const HomeComponent = styled.section`
       flex-direction: column;
       align-items: center;
       width: 70%;
-      font-family: "LogoFont";
+      font-family: 'LogoFont';
       font-size: 4rem;
       line-height: 4rem;
       letter-spacing: 1rem;
@@ -62,4 +62,4 @@ export const HomeComponent = styled.section`
       }
     }
   }
-`;
+`

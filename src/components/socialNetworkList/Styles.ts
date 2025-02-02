@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const SocialNetworkListComponent = styled.div`
   width: 50%;
@@ -13,4 +13,4 @@ export const SocialNetworkListComponent = styled.div`
       margin: 5px 0 0 30px;
     }
   }
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const SectionComponent = styled.section<{ id?: string }>`
   background-color: #f4f4f4; /* remplace $off-white */
@@ -144,4 +144,4 @@ export const SectionComponent = styled.section<{ id?: string }>`
       }
     }
   }
-`;
+`

@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
-import { styled } from "styled-components";
+import { Link } from 'react-router-dom'
+import { styled } from 'styled-components'
 
 export const NavWrapper = styled.nav<{ $topPosition?: boolean }>`
   height: 50px;
   width: 100%;
   background-color: ${(props) =>
-    props.$topPosition ? "transparent" : "#141414"};
+    props.$topPosition ? 'transparent' : '#141414'};
   position: fixed;
   bottom: 0;
   padding: 0 5%;
@@ -24,7 +24,7 @@ export const NavWrapper = styled.nav<{ $topPosition?: boolean }>`
   @media (min-width: 1024px) {
     height: 60px;
   }
-`;
+`
 
 export const LogoWrapper = styled(Link)`
   height: 40%;
@@ -34,4 +34,4 @@ export const LogoWrapper = styled(Link)`
     height: 100%;
     width: auto;
   }
-`;
+`
