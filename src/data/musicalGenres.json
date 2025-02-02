@@ -1,9 +1,9 @@
 [
-  { "name": "Electro" },
-  { "name": "Trap" },
-  { "name": "Hip-Hop" },
-  { "name": "House" },
+  { "name": "Afro House" },
   { "name": "Dance" },
-  { "name": "Pop" },
-  { "name": "Techno" }
+  { "name": "Deep House" },
+  { "name": "Electro" },
+  { "name": "House" },
+  { "name": "Techno" },
+  { "name": "Tech House" }
 ]
