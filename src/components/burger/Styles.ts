@@ -124,11 +124,10 @@ export const CustomLink = styled(Link)<{ active?: boolean }>`
     width: 100%;
   }
 
-  /* Style spécial pour le lien actif */
   ${({ active }) =>
     active &&
     `
       font-weight: bold;
-      color: #ffcc00; // Couleur spéciale pour lien actif
+      color: ${colors.yellow};
   `}
 `

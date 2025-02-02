@@ -7,4 +7,5 @@ export const colors = {
   lightGrey: '#f5f5f5',
   offWhite: '#fafafa',
   error: '#c90000',
+  yellow: '#ffcc00',
 }
