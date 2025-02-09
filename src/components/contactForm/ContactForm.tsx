@@ -127,8 +127,9 @@ export const ContactForm: React.FC<ContactFormProps> = ({
         </InputWrapper>
       </InputContainer>
       <LargerInputWrapper>
-        <HiddenLabel id="subject">Sujet</HiddenLabel>
+        <HiddenLabel htmlFor="subject">Sujet</HiddenLabel>
         <SelectField
+          id="subject"
           name="subject"
           value={inputForm.subject}
           onChange={handleChange}
