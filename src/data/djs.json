@@ -96,5 +96,61 @@
     "beatport": null,
     "mixcloud": null,
     "youtube": null
+  },
+  {
+    "name": "Elitsa Arsova",
+    "url_name": "elitsa-arsova",
+    "profile_picture": "elitsa-arsova.jpg",
+    "musical_genres": ["Afro House", "House"],
+    "biography": "Elitsa Arsova est une DJ et productrice bulgare reconnue pour ses sets énergiques et sa capacité à fusionner des sonorités techno percutantes avec des éléments house hypnotiques. Passionnée de musique électronique depuis son adolescence, elle a su s'imposer sur la scène européenne grâce à son approche avant-gardiste et ses performances électrisantes. Résidente dans plusieurs clubs de renom en Europe, Elitsa est également une figure montante des festivals de musique underground, où elle captive le public avec ses rythmes envoûtants et ses transitions fluides.",
+    "soundcloud": "https://soundcloud.com/elitsaarsova",
+    "facebook": "https://www.facebook.com/elitsaarsova",
+    "instagram": "https://www.instagram.com/elitsaarsova",
+    "spotify": null,
+    "beatport": null,
+    "mixcloud": "https://www.mixcloud.com/elitsaarsova",
+    "youtube": null
+  },
+  {
+    "name": "DJ Miss Kriss",
+    "url_name": "dj-miss-kriss",
+    "profile_picture": "dj-miss-kriss.webp",
+    "musical_genres": ["Afro House", "Disco", "House"],
+    "biography": "DJ Miss Kriss est une artiste suisse incontournable de la scène clubbing internationale. Avec une présence scénique captivante et un sens inné du groove, elle enflamme les pistes de danse avec ses sets mêlant house énergique, electro punchy et vibes festives. Son talent l'a amenée à jouer dans les clubs les plus prestigieux d'Europe et à collaborer avec de nombreux artistes influents. Grâce à son charisme et son amour du mix, Miss Kriss est devenue une référence pour les amateurs de soirées électrisantes.",
+    "soundcloud": "https://soundcloud.com/djmisskriss",
+    "facebook": "https://www.facebook.com/djmisskriss",
+    "instagram": "https://www.instagram.com/djmisskriss",
+    "spotify": null,
+    "beatport": null,
+    "mixcloud": "https://www.mixcloud.com/djmisskriss",
+    "youtube": null
+  },
+  {
+    "name": "Darell Bacs",
+    "url_name": "darell-bacs",
+    "profile_picture": "darell-bacs.jpg",
+    "musical_genres": ["Afro House", "Généraliste", "House"],
+    "biography": "Darell Bacs est un DJ et producteur français dont la musique oscille entre deep house immersive, tech house rythmée et minimal hypnotique. Son sens du détail et sa sélection musicale raffinée font de lui un artiste recherché sur la scène électronique. Influencé par les sonorités underground berlinoises et londoniennes, Darell crée des sets envoûtants qui transportent son public dans un univers sonore unique. Il est également connu pour ses productions pointues, jouées par de nombreux DJs à travers le monde.",
+    "soundcloud": "https://soundcloud.com/darellbacs",
+    "facebook": "https://www.facebook.com/darellbacs",
+    "instagram": "https://www.instagram.com/darellbacs",
+    "spotify": null,
+    "beatport": null,
+    "mixcloud": "https://www.mixcloud.com/darellbacs",
+    "youtube": null
+  },
+  {
+    "name": "DJ Magnum",
+    "url_name": "dj-magnum",
+    "profile_picture": "dj-magnum.jpg",
+    "musical_genres": ["Généraliste", "Hip-Hop", "House"],
+    "biography": "DJ Magnum est une véritable icône du turntablism et du mix open format. Originaire de France, il est connu pour sa capacité à fusionner les genres avec une aisance impressionnante, allant du hip-hop à la house en passant par le funk et l’électro. Son talent l’a propulsé aux côtés d’artistes et célébrités internationales, faisant de lui l’un des DJs les plus prisés pour les événements VIP et les clubs les plus exclusifs. Avec une énergie communicative et un feeling hors pair, DJ Magnum sait comment transformer une soirée en une expérience mémorable.",
+    "soundcloud": "https://soundcloud.com/djmagnum",
+    "facebook": "https://www.facebook.com/djmagnumofficial",
+    "instagram": "https://www.instagram.com/djmagnum",
+    "spotify": null,
+    "beatport": null,
+    "mixcloud": "https://www.mixcloud.com/djmagnum",
+    "youtube": null
   }
 ]

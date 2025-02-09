@@ -81,18 +81,18 @@ export const GlobalStyle = createGlobalStyle`
     }
 
   html {
-    font-size: 50%;
+    font-size: 60%;
     scroll-behavior: smooth;
 
     @media (min-width: 768px) {
-    font-size: 50%;
+    font-size: 60%;
   }
 }
 
     body {
     background-color: ${colors.anthraciteGrey}; 
     font-family: Helvetica, sans-serif;
-    font-size: 50%;
+    font-size: 60%;
 
     &::-webkit-scrollbar {
         width: 10px;
