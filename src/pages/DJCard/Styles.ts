@@ -119,7 +119,7 @@ export const DjCardHeaderInformations = styled.div`
   hyphens: auto;
 `
 
-export const DjCardHeaderInformationsName = styled.h3`
+export const DjCardHeaderInformationsName = styled.h2`
   letter-spacing: 0.2rem;
   font-size: 2.5rem;
 
@@ -135,7 +135,7 @@ export const DjCardHeaderInformationsMusicalGenres = styled.div`
   flex-wrap: wrap;
 `
 
-export const DjCardHeaderInformationsMusicalGenresItem = styled.h4`
+export const DjCardHeaderInformationsMusicalGenresItem = styled.p`
   padding: 5px;
   margin: 0 5px;
   letter-spacing: 0.15rem;
@@ -244,7 +244,7 @@ export const DjCardDescriptionTitlesLine = styled.div`
   }
 `
 
-export const DjCardDescriptionTitlesText = styled.h5`
+export const DjCardDescriptionTitlesText = styled.h3`
   text-transform: uppercase;
   padding: 10px 0 0 15px;
   font-size: 1.2rem;

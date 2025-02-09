@@ -66,7 +66,7 @@ export const MusicalGenresContainer = styled.div`
   flex-wrap: wrap;
 `
 
-export const MusicalGenreItem = styled.h4`
+export const MusicalGenreItem = styled.p`
   padding: 5px;
   margin: 0 5px;
   letter-spacing: 0.15rem;

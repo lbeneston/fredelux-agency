@@ -61,7 +61,7 @@ export const DjCard = () => {
   return (
     <DjCardContainer>
       <DjCardContainerTitle>
-        <h2>Booking DJ</h2>
+        <h1>Booking DJ</h1>
       </DjCardContainerTitle>
       <DjCardWrapper>
         <DjCardCloseButton>

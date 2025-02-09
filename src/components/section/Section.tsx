@@ -22,7 +22,7 @@ export const Section: React.FC<SectionProps> = ({
     <SectionComponent id={id}>
       <div className="section_header">
         <div className="section_header_background" />
-        <h2 className="section_header_title">{headerTitle}</h2>
+        <h1 className="section_header_title">{headerTitle}</h1>
         <div className="section_header_illustration">
           <source srcSet={`${process.env.PUBLIC_URL}/images/${headerIllustration.webp}`} type="image/webp" />
           <img src={`${process.env.PUBLIC_URL}/images/${headerIllustration.jpg}`} alt="" />
@@ -30,9 +30,9 @@ export const Section: React.FC<SectionProps> = ({
       </div>
       <div className="section_description">
         <div className="section_description_container">
-          <h3 className="section_description_container_title">
+          <h2 className="section_description_container_title">
             {descriptionTitle}
-          </h3>
+          </h2>
           <p className="section_description_container_paragraphe">
             {descriptionParagraphe}
           </p>

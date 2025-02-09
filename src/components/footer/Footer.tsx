@@ -15,16 +15,16 @@ export const Footer = () => {
           <a href="tel:+33634648754"> +33 (0) 6 34 64 87 54 </a>
           <a href="tel:+33177133914"> +33 (0) 1 77 13 39 14 </a>
         </div>
-        <h3 className="footer_adresse">
+        <p className="footer_adresse">
           34 rue du Faubourg Saint-Honorée 75008 Paris
-        </h3>
+        </p>
         <a href={`mailto:${FREDELUX_AGENCY_EMAIL}`} className="footer_mail">
           {FREDELUX_AGENCY_EMAIL}
         </a>
       </address>
-      <h4 className="footer_copyright">
+      <p className="footer_copyright">
         Copyright&#x00A9; {date} Fredelux Agency
-      </h4>
+      </p>
     </FooterComponent>
   )
 }

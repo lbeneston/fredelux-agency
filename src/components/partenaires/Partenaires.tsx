@@ -13,7 +13,7 @@ export const Partenaires: React.FC<PartenairesProps> = ({ href, src, nom }) => {
       <source srcSet={`${process.env.PUBLIC_URL}/images/${src.webp}`} type="image/webp" />
       <img className="item_illustration" src={`${process.env.PUBLIC_URL}/images/${src.jpg}`} alt={nom} />
       <div className="item_description">
-        <h4>{nom}</h4>
+        <h2>{nom}</h2>
         <p>Découvrir</p>
       </div>
     </PartenairesCarrouselComponent>

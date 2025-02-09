@@ -45,7 +45,7 @@ export const PartenairesCarrousel = () => {
         </div>
 
         <div className="partenaires_container_background" />
-        <h2 className="partenaires_container_title">Nos partenaires</h2>
+        <h1 className="partenaires_container_title">Nos partenaires</h1>
         <div className="partenaires_container_carrousel">
           {sliderArr.map((item, index) => {
             return (

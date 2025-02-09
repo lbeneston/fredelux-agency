@@ -80,7 +80,7 @@ export default function Booking() {
 
       <MusicalGenresWrapper>
         <GenreTitle onClick={() => setOpen(!open)}>
-          <h3>Genre musical : {musicalGenreSelected}</h3>
+          <h2 aria-label={`Sélectionner une genre musical : ${musicalGenreSelected}`}>Genre musical : {musicalGenreSelected}</h2>
         </GenreTitle>
 
         <GenreContainer ref={genreContainerRef} open={open}>
@@ -123,6 +123,6 @@ export default function Booking() {
           </DjsCard>
         ))}
       </DjsList>
-    </React.Fragment>
+    </React.Fragment >
   )
 }
