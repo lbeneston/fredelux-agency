@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.7897db85.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/index.html",
-    "main.7897db85.js.map": "/static/js/main.7897db85.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "main.js": "/fredelux-agency/static/js/main.d307852b.js",
+    "static/js/453.ed3810f9.chunk.js": "/fredelux-agency/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/fredelux-agency/index.html",
+    "main.d307852b.js.map": "/fredelux-agency/static/js/main.d307852b.js.map",
+    "453.ed3810f9.chunk.js.map": "/fredelux-agency/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.7897db85.js"
+    "static/js/main.d307852b.js"
   ]
 }
