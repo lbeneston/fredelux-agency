@@ -33,7 +33,7 @@ export const ServicesComponent = styled.section`
         display: block;
         opacity: 1;
         margin-top: 15px;
-        font-size: 1.25rem;
+        font-size: 2rem;
       }
     }
 

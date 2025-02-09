@@ -28,6 +28,10 @@ export const InputField = styled.input`
   font-size: 1.2rem;
   transition: 0.5s;
 
+  &:hover {
+    background-color: ${colors.softGrey};
+  }
+
   @media (min-width: 1024px) {
     font-size: 1.3rem;
   }
@@ -92,6 +96,10 @@ export const SelectField = styled.select`
   overflow: hidden;
   text-overflow: ellipsis;
 
+  &:hover {
+    background-color: ${colors.softGrey};
+  }
+
   @media (min-width: 1024px) {
     font-size: 1.3rem;
   }
@@ -112,6 +120,10 @@ export const TextArea = styled.textarea`
 
   @media (min-width: 1024px) {
     font-size: 1.3rem;
+  }
+
+  &:hover {
+    background-color: ${colors.softGrey};
   }
 
   &::-webkit-scrollbar {
@@ -152,6 +164,10 @@ export const Button = styled.button`
   font-size: 1.2rem;
   transition: 0.5s ease-in-out;
   color: ${colors.black};
+
+  &:hover {
+    background-color: ${colors.middleGrey};
+  }
 
   @media (min-width: 1024px) {
     font-size: 1.3rem;

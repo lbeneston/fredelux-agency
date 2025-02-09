@@ -10,7 +10,7 @@ export const PartenairesCarrouselComponent = styled.a`
     transition: 0.5s ease-in-out;
   }
 
-  &:hover .item_description h4 {
+  &:hover .item_description h2 {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
   }
@@ -19,7 +19,7 @@ export const PartenairesCarrouselComponent = styled.a`
     display: block;
     opacity: 1;
     margin-top: 15px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     transition: 0.5s ease-in-out;
   }
 
@@ -46,7 +46,7 @@ export const PartenairesCarrouselComponent = styled.a`
       rgba(0, 0, 0, 1)
     );
 
-    h4 {
+    h2 {
       font-size: 1.75rem;
       transition: 0.5s ease-in-out;
       text-shadow: 0 0 10px ${colors.black};
