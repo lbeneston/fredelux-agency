@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import { Footer } from './components/footer/Footer'
 import { Nav } from './components/nav/Nav'
 import { GlobalStyle } from './styles/GlobalStyle'
@@ -11,10 +11,10 @@ export const App = () => {
     <React.Fragment>
       <GlobalStyle />
       <Fonts />
-      <HashRouter>
+      <BrowserRouter>
         <Nav />
         <AppRoutes />
-      </HashRouter>
+      </BrowserRouter>
       <Footer />
     </React.Fragment>
   )

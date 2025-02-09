@@ -61,7 +61,7 @@ export default function Booking() {
     <React.Fragment>
       <Section
         headerTitle="Booking DJ"
-        headerIllustration={`${process.env.PUBLIC_URL}/images/service_booking.jpg`}
+        headerIllustration={{ jpg: "service_booking.jpg", webp: "service_booking.webp" }}
         descriptionTitle="Faire de votre événement un moment inoubliable"
         descriptionParagraphe={`Nous disposons d’un Roster DJ très varié. Tous nos artistes ont une expérience solide et confirmée en France et à l’étranger, mixant tout type de répertoire musical de la Deep House au Hip Hop en passant par le Disco, le R’n’B, le Funk, ou le RAP. 
 

@@ -4,7 +4,7 @@ import { SectionComponent } from './Styles'
 interface SectionProps {
   id?: string
   headerTitle: string
-  headerIllustration: string
+  headerIllustration: { jpg: string, webp: string }
   descriptionTitle: string
   descriptionParagraphe: string
   option?: React.ReactNode
@@ -24,7 +24,8 @@ export const Section: React.FC<SectionProps> = ({
         <div className="section_header_background" />
         <h2 className="section_header_title">{headerTitle}</h2>
         <div className="section_header_illustration">
-          <img src={headerIllustration} alt="" />
+          <source srcSet={`${process.env.PUBLIC_URL}/images/${headerIllustration.webp}`} type="image/webp" />
+          <img src={`${process.env.PUBLIC_URL}/images/${headerIllustration.jpg}`} alt="" />
         </div>
       </div>
       <div className="section_description">

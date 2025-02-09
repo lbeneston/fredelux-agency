@@ -6,17 +6,17 @@ export const PartenairesCarrousel = () => {
   const sliderArr = [
     <Partenaires
       href="https://beaumarly.com/"
-      src={`${process.env.PUBLIC_URL}/images/Groupe_Beaumarly.jpg`}
+      src={{ jpg: "Groupe_Beaumarly.jpg", webp: "Groupe_Beaumarly.webp" }}
       nom="Groupe Beaumarly"
     />,
     <Partenaires
       href="https://www.blackcode.fr/"
-      src={`${process.env.PUBLIC_URL}/images/Groupe_black_code.jpg`}
+      src={{ jpg: "Groupe_black_code.jpg", webp: "Groupe_black_code.webp" }}
       nom="Groupe Black Code"
     />,
     <Partenaires
       href="https://www.novelty-group.com/"
-      src={`${process.env.PUBLIC_URL}/images/Novelty_group.jpg`}
+      src={{ jpg: "Novelty_group.jpg", webp: "Novelty_group.webp" }}
       nom="Groupe Novelty"
     />,
   ]

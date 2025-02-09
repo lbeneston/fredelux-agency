@@ -8,7 +8,7 @@ export const Agency = () => {
   return (
     <Section
       headerTitle="L'agence"
-      headerIllustration={`${process.env.PUBLIC_URL}/images/ballons.jpg`}
+      headerIllustration={{ jpg: "ballons.jpg", webp: "ballons.webp" }}
       descriptionTitle="Qui sommes-nous ?"
       descriptionParagraphe={`C’est le fruit d’une longue réflexion et d’une grande volonté de vous faire atteindre l’excellence. Nous sommes prestataires de services, spécialisés dans la conception et l’organisation d’événements.
         
