@@ -6,12 +6,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "deadcode": "knip",
     "format": "prettier --write 'src/**/*.{ts,tsx,json,css,scss,html,js,jsx}'"
-  },
+  }
   "dependencies": {
     "@types/node": "^22.13.0",
     "@types/react": "^19.0.8",
@@ -26,7 +24,6 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "knip": "^5.43.6",
     "prettier": "^3.4.2"
   },
