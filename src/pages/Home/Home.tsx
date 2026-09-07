@@ -5,6 +5,8 @@ import { Agency } from '../Agency/Agency'
 import { Contact } from '../Contact/Contact'
 import { useScrollToTop } from '../../helpers/useScrollToTop'
 import { HomeSection } from '../../components/home/Home'
+import { Link } from 'react-router-dom'
+
 
 export const Home = () => {
   useScrollToTop()
