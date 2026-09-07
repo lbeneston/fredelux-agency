@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { HomeSection } from '../../components/home/Home'
 import { Services } from '../../components/services/Services'
 import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
+import { Agency } from '../Agency/Agency'
 
 export const Home = () => {
   return (
@@ -9,6 +10,7 @@ export const Home = () => {
       <h1>HOME</h1>
       <HomeSection />
       <Link to="/agence">Aller à la page 2</Link>
+      <Agency />
       <Services />
       <PartenairesCarrousel />
     </div>
