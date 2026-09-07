@@ -1,21 +1,27 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import { Footer } from './components/footer/Footer'
-import { Nav } from './components/nav/Nav'
-import { GlobalStyle } from './styles/GlobalStyle'
-import { AppRoutes } from './Routes'
-import { Fonts } from './styles/Fonts'
+import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
+
+const HomeTest = () => (
+  <div>
+    <h1>Accueil TEST</h1>
+    <Link to="/agence">Aller à Agence</Link>
+  </div>
+)
+
+const AgencyTest = () => (
+  <div>
+    <h1>Agence TEST</h1>
+    <Link to="/">Retour accueil</Link>
+  </div>
+)
 
 export const App = () => {
   return (
-    <React.Fragment>
-      <GlobalStyle />
-      <Fonts />
-      <BrowserRouter useTransitions={false}>
-        <Nav />
-        <AppRoutes />
-      </BrowserRouter>
-      <Footer />
-    </React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeTest />} />
+        <Route path="/agence" element={<AgencyTest />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
