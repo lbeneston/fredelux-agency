@@ -1,10 +1,7 @@
 import { ContactForm } from '../../components/contactForm/ContactForm'
 import { Section } from '../../components/section/Section'
-import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const Contact = () => {
-  useScrollToTop()
-
   return (
     <Section
       headerTitle="Contact"
