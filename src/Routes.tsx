@@ -1,4 +1,6 @@
-import { Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
+
 import { Home } from './pages/Home/Home'
 import { NoMatch } from './pages/NoMatch/NoMatch'
 import { SoundDesign } from './pages/SoundDesign/SoundDesign'
@@ -8,6 +10,12 @@ import { Contact } from './pages/Contact/Contact'
 import { Agency } from './pages/Agency/Agency'
 
 export const AppRoutes = () => {
+  const { pathname } = useLocation() 
+    
+  useEffect(() => { 
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto', }) 
+  }, [pathname])
+  
   return (
     <Routes>
       <Route path="/" element={<Home />} />
