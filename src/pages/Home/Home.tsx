@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { HomeSection } from '../../components/home/Home'
 import { Services } from '../../components/services/Services'
+import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
 
 export const Home = () => {
   return (
@@ -8,6 +9,7 @@ export const Home = () => {
       <h1>HOME</h1>
       <HomeSection />
       <Services />
+      <PartenairesCarrousel />
       <Link to="/agence">
         Aller à la page 2
       </Link>
