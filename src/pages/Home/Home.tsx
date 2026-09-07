@@ -13,6 +13,6 @@ export const Home = () => {
       <Services />
       <Contact />
       <PartenairesCarrousel />
-    </div>
+    </React.Fragment>
   )
 }
