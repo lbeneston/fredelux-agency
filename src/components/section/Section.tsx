@@ -24,16 +24,14 @@ export const Section: React.FC<SectionProps> = ({
         <div className="section_header_background" />
         <h1 className="section_header_title">{headerTitle}</h1>
         <div className="section_header_illustration">
-          <picture>
-            <source
-              srcSet={`${process.env.PUBLIC_URL}/images/${headerIllustration.webp}`}
-              type="image/webp"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/images/${headerIllustration.jpg}`}
-              alt=""
-            />
-          </picture>
+          <source
+            srcSet={`${process.env.PUBLIC_URL}/images/${headerIllustration.webp}`}
+            type="image/webp"
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/${headerIllustration.jpg}`}
+            alt=""
+          />
         </div>
       </div>
       <div className="section_description">
