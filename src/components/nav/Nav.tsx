@@ -5,50 +5,42 @@ import { LogoWrapper, NavWrapper } from './Styles'
 import { Burger } from '../burger/Burger'
 
 export const Nav = () => {
-  const [topPosition, setTopPosition] = useState<boolean>(true)
+  const [topPosition, setTopPosition] = useState(true)
+  const location = useLocation()
 
   useEffect(() => {
-    if (window.scrollY === 0) {
-      setTopPosition(true)
-    } else {
-      setTopPosition(false)
+    const onScroll = () => {
+      setTopPosition(window.scrollY === 0)
     }
 
-    function onScroll() {
-      const currentPosition = window.scrollY
-      if (currentPosition > 0) {
-        setTopPosition(false)
-      } else {
-        setTopPosition(true)
-      }
-    }
+    onScroll()
 
     window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
+
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+    }
   }, [])
 
-  const SwitchNav = () => {
-    const location = useLocation()
-    const { pathname } = location
-    if (pathname === '/') {
-      return (
-        <NavWrapper $topPosition={topPosition}>
-          <LogoWrapper to="/">
-            <LogoFA />
-          </LogoWrapper>
-          <Burger />
-        </NavWrapper>
-      )
-    }
+  if (location.pathname === '/') {
     return (
-      <NavWrapper $topPosition={false}>
+      <NavWrapper $topPosition={topPosition}>
         <LogoWrapper to="/">
           <LogoFA />
         </LogoWrapper>
+
         <Burger />
       </NavWrapper>
     )
   }
 
-  return <SwitchNav />
+  return (
+    <NavWrapper $topPosition={false}>
+      <LogoWrapper to="/">
+        <LogoFA />
+      </LogoWrapper>
+
+      <Burger />
+    </NavWrapper>
+  )
 }
