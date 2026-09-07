@@ -11,7 +11,7 @@ export const App = () => {
     <React.Fragment>
       <GlobalStyle />
       <Fonts />
-      <BrowserRouter>
+      <BrowserRouter useTransitions={false}>
         <Nav />
         <AppRoutes />
       </BrowserRouter>
