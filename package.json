@@ -9,7 +9,7 @@
     "eject": "react-scripts eject",
     "deadcode": "knip",
     "format": "prettier --write 'src/**/*.{ts,tsx,json,css,scss,html,js,jsx}'"
-  }
+  },
   "dependencies": {
     "@types/node": "^22.13.0",
     "@types/react": "^19.0.8",
