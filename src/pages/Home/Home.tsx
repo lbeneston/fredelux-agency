@@ -11,6 +11,9 @@ export const Home = () => {
       <HomeSection />
       <Link to="/agence">Aller à la page "agence"</Link>
       <Link to="/sound-design">Aller à la page "sound-design"</Link>
+      <Link to="/booking">Aller à la page "booking"</Link>
+      <Link to="/booking/:url_name">Aller à la page "booking/:url_name"</Link>
+      <Link to="/contact">Aller à la page "contact"</Link>
       <Agency />
       <Services />
       <PartenairesCarrousel />
