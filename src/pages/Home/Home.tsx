@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { Link } from 'react-router-dom'
 import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
 import { Services } from '../../components/services/Services'
