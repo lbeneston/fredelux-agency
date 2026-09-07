@@ -105,7 +105,7 @@ export default function Booking() {
 
       <DjsList>
         {djFilterArray.map((dj) => (
-          <DjsCard to={`/booking/${dj.url_name}/#`} key={dj.url_name}>
+          <DjsCard to={`/booking/${dj.url_name}`} key={dj.url_name}>
             <ProfilePicture
               src={`${process.env.PUBLIC_URL}/images/${dj.profile_picture}`}
               alt=""
