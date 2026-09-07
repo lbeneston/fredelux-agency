@@ -17,7 +17,7 @@ const PageTwo = () => (
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<PageOne />} />
+      <Route path="/" element={<Home />} />
       <Route path="/agence" element={<PageTwo />} />
     </Routes>
   )
