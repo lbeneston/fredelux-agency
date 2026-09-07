@@ -8,11 +8,9 @@ export const Home = () => {
     <div>
       <h1>HOME</h1>
       <HomeSection />
+      <Link to="/agence">Aller à la page 2</Link>
       <Services />
       <PartenairesCarrousel />
-      <Link to="/agence">
-        Aller à la page 2
-      </Link>
     </div>
   )
 }
