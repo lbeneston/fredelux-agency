@@ -16,11 +16,8 @@ import {
   MusicalGenreItem,
 } from './Styles'
 import { ContactLink } from '../../components/contactLink/ContactLink'
-import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export default function Booking() {
-  useScrollToTop()
-
   const [musicalGenreSelected, setMusicalGenreSelected] =
     useState<string>('All')
   const [open, setOpen] = useState<boolean>(false)
