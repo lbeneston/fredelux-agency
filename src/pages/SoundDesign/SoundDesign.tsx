@@ -3,8 +3,6 @@ import { Section } from '../../components/section/Section'
 import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const SoundDesign = () => {
-  useScrollToTop()
-
   return (
     <Section
       headerTitle="Sound Design"
