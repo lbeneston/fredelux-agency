@@ -2,22 +2,13 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Fredelux Agency</title>
     <script>
-      (function () {
-        var path = window.location.pathname
-        var search = window.location.search
-        var hash = window.location.hash
+      const path = window.location.pathname;
+      const search = window.location.search;
 
-        var redirect =
-          '/?/' +
-          encodeURIComponent(path + search + hash)
-
-        window.location.replace(redirect)
-      })()
+      sessionStorage.redirect = path + search;
+      window.location.replace('/');
     </script>
   </head>
-  <body>
-    <p>Redirection...</p>
-  </body>
+  <body></body>
 </html>
