@@ -1,6 +1,5 @@
 import { ContactLink } from '../../components/contactLink/ContactLink'
 import { Section } from '../../components/section/Section'
-import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const SoundDesign = () => {
   return (
