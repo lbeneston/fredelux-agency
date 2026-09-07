@@ -10,7 +10,7 @@ export const Home = () => {
       <h1>HOME</h1>
       <HomeSection />
       <Link to="/agence">Aller à la page "agence"</Link>
-      <Link to="/agence">Aller à la page 2</Link>
+      <Link to="/sound-design">Aller à la page "sound-design"</Link>
       <Agency />
       <Services />
       <PartenairesCarrousel />
