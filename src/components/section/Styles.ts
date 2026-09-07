@@ -63,27 +63,32 @@ export const SectionComponent = styled.section<{ id?: string }>`
       }
     }
 
-    & .section_header_illustration {
+  & .section_header_illustration {
+    height: 100%;
+    width: 75%;
+    left: 20%;
+    position: absolute;
+  
+    & picture {
       height: 100%;
-      width: 75%;
-      left: 20%;
-      position: absolute;
-
+      width: 100%;
+      display: block;
+  
       @media (min-width: 768px) {
         display: flex;
         align-items: center;
       }
-
-      & img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        filter: grayscale(100%);
-        background-color: ${colors.grey};
-
-        @media (min-width: 768px) {
-          height: 75%;
-        }
+    }
+  
+    & picture img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: grayscale(100%);
+      background-color: ${colors.grey};
+  
+      @media (min-width: 768px) {
+        height: 75%;
       }
     }
   }
