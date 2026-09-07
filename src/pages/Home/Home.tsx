@@ -1,10 +1,5 @@
 import React from 'react'
-import { PartenairesCarrousel } from '../../components/partenairesCarrousel/PartenairesCarrousel'
-import { Services } from '../../components/services/Services'
-import { Agency } from '../Agency/Agency'
-import { Contact } from '../Contact/Contact'
 import { useScrollToTop } from '../../helpers/useScrollToTop'
-import { HomeSection } from '../../components/home/Home'
 import { Link } from 'react-router-dom'
 
 
@@ -13,12 +8,7 @@ export const Home = () => {
 
   return (
     <React.Fragment>
-      <HomeSection />
       <Link to="/agence">Aller à la page 2</Link>
-      <Agency />
-      <Services />
-      <Contact />
-      <PartenairesCarrousel />
     </React.Fragment >
   )
 }
