@@ -1,10 +1,7 @@
 import { ContactLink } from '../../components/contactLink/ContactLink'
 import { Section } from '../../components/section/Section'
-import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const Agency = () => {
-  useScrollToTop()
-
   return (
     <Section
       headerTitle="L'agence"
