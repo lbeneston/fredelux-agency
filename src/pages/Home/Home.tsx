@@ -12,6 +12,7 @@ export const Home = () => {
   return (
     <React.Fragment>
       <HomeSection />
+      <Link to="/agence">Aller à la page 2</Link>
       <Agency />
       <Services />
       <Contact />
