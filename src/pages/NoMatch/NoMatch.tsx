@@ -1,10 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { NoMatchContainer, Title, Description, ButtonHome } from './Styles'
-import { useScrollToTop } from '../../helpers/useScrollToTop'
 
 export const NoMatch = () => {
-  useScrollToTop()
-
   const navigate = useNavigate()
   const returnHome = () => navigate('/')
 
