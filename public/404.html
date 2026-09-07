@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fredelux Agency</title>
+    <script>
+      (function () {
+        var path = window.location.pathname
+        var search = window.location.search
+        var hash = window.location.hash
+
+        var redirect =
+          '/?/' +
+          encodeURIComponent(path + search + hash)
+
+        window.location.replace(redirect)
+      })()
+    </script>
+  </head>
+  <body>
+    <p>Redirection...</p>
+  </body>
+</html>
